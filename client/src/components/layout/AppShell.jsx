@@ -34,7 +34,7 @@ const AppShell = ({ title, subtitle, children, navItems = [], notificationCount 
               {sidebarOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
             <div className="flex items-center gap-2">
-              <div className={`w-8 h-8 rounded-lg bg-gradient-to-br ${accentBadge} flex items-center justify-center text-sm font-bold hidden sm:flex`}>
+              <div className={`w-8 h-8 rounded-lg bg-gradient-to-br ${accentBadge} flex items-center justify-center text-sm font-bold sm:flex`}>
                 EE
               </div>
               <div>
